@@ -1,5 +1,5 @@
 import React from "react";
-import Grid from "@material-ui/core/Grid";
+import { Grid } from "@material-ui/core/";
 
 function About() {
 	return (
@@ -24,22 +24,26 @@ function About() {
 						</p>
 					</div>
 				</Grid>
-				<Grid item xs={6}>
-					<span class="icon">
-						<a href="https://github.com/eduardoramos1" target="tab">
-							<i class="fab fa-github"></i>
-						</a>
-					</span>
+				<Grid item xs={12}>
+					<div className="bg-light button">
+						<span class="icon">
+							<a href="https://github.com/eduardoramos1" target="tab">
+								<i class="fab fa-github"></i> Github
+							</a>
+						</span>
+					</div>
 				</Grid>
-				<Grid item xs={6}>
-					<span class="icon">
-						<a
-							href="https://www.linkedin.com/in/eduardoramosxavier"
-							target="tab"
-						>
-							<i class="fab fa-linkedin"></i>
-						</a>
-					</span>
+				<Grid item xs={12}>
+					<div className="bg-light button mb-3">
+						<span class="icon">
+							<a
+								href="https://www.linkedin.com/in/eduardoramosxavier"
+								target="tab"
+							>
+								<i class="fab fa-linkedin"></i> Linkedin
+							</a>
+						</span>
+					</div>
 				</Grid>
 			</Grid>
 		</div>
