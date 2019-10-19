@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import { Container } from "@material-ui/core/";
 import Navbar from "./components/NavBar";
@@ -7,7 +7,11 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
+import projects from "./projects";
+
 function App() {
+	const [portfolioProjects] = useState(projects);
+
 	return (
 		<BrowserRouter>
 			<div className="App">
@@ -15,7 +19,9 @@ function App() {
 				<Container fixed>
 					<Switch>
 						<Route exact path="/" component={About} />
-						<Route exact path="/projetos" component={Projects} />
+						<Route exact path="/projetos">
+							<Projects portfolioProjects={portfolioProjects} />
+						</Route>
 						<Route exact path="/skills">
 							<Skills></Skills>
 						</Route>
