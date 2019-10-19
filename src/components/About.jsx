@@ -4,10 +4,8 @@ import { Grid } from "@material-ui/core/";
 function About() {
 	return (
 		<div>
+			<h2 className="h2 about">Sobre mim</h2>
 			<Grid container spacing={3}>
-				<Grid item xs={12}>
-					<h2 className="h2 about">Sobre mim</h2>
-				</Grid>
 				<Grid item xs={12}>
 					<div className="content">
 						<p>
