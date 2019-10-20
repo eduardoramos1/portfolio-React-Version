@@ -1,7 +1,7 @@
 const projects = [
 	{
 		project: "Github Finder",
-		website: null,
+		website: "https://buscador-github.netlify.com/",
 		github: "https://github.com/eduardoramos1/Github-Finder",
 		tecnologies: "React, Axios, CSS3, HTML5"
 	},
