@@ -7,9 +7,9 @@ export default function Projects(props) {
 			<h2 className="h2 about">Meus Projetos</h2>
 			<div className="grid-projects">
 				{" "}
-				{props.portfolioProjects.map(p => {
+				{props.portfolioProjects.map((p, i) => {
 					return (
-						<div className="card grid-row-3">
+						<div className="card grid-row-3" key={i}>
 							<h3 className="mb-3">{p.project}</h3>
 							<div>
 								<p className="mb-2">Tecnologias utilizadas: {p.tecnologies}</p>

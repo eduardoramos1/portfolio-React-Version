@@ -23,22 +23,22 @@ function About() {
 					</div>
 				</Grid>
 				<Grid item xs={12}>
-					<div className="bg-light button">
-						<span class="icon">
+					<div className="bg-red button">
+						<span className="icon">
 							<a href="https://github.com/eduardoramos1" target="tab">
-								<i class="fab fa-github"></i> Github
+								<i className="fab fa-github"></i> Github
 							</a>
 						</span>
 					</div>
 				</Grid>
 				<Grid item xs={12}>
-					<div className="bg-light button mb-3">
-						<span class="icon">
+					<div className="bg-red button mb-3">
+						<span className="icon">
 							<a
 								href="https://www.linkedin.com/in/eduardoramosxavier"
 								target="tab"
 							>
-								<i class="fab fa-linkedin"></i> Linkedin
+								<i className="fab fa-linkedin"></i> Linkedin
 							</a>
 						</span>
 					</div>

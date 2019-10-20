@@ -80,7 +80,6 @@ nav li {
 }
 
 .icon a {
-	color: var(--red);
 	display: block;
 	font-size: 2rem;
 	text-decoration: none;
@@ -122,12 +121,21 @@ nav li {
 	color: var(--dark);
 }
 
+.bg-red {
+	background: var(--red);
+	color: var(--white-smoke);
+}
+
 .button {
 	border-bottom-left-radius: 20px;
 }
 
 .bg-light:hover {
-	opacity: 0.9;
+	opacity: 0.8;
+	box-shadow: var(--dark) 1px 1px 5px;
+}
+
+.bg-red:hover {
 	box-shadow: var(--dark) 1px 1px 5px;
 }
 
@@ -152,6 +160,7 @@ nav li {
 }
 
 .card {
+	box-sizing: border-box;
 	padding: 1rem;
 	border: #ccc 1px dotted;
 	margin: 0.7rem 0;
@@ -207,7 +216,7 @@ nav li {
 	}
 }
 
-@media (max-width: 399px) {
+@media (max-width: 450px) {
 	html {
 		font-size: 12px;
 	}
