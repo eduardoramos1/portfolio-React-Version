@@ -10,20 +10,24 @@ export default function Projects(props) {
 				{props.portfolioProjects.map((p, i) => {
 					return (
 						<div className="card grid-row-3" key={i}>
-							<h3 className="mb-3">{p.project}</h3>
-							<div>
+							<h3 className="mb-3 deep-dark">{p.project}</h3>
+							<div className="dark ">
 								<p className="mb-2">Tecnologias utilizadas: {p.tecnologies}</p>
 								<p className="mb-2">
-									Veja no Github{" "}
-									<a href={p.github} target="tab" className="dark">
+									Repositório no Github :
+									<a href={p.github} target="tab" className="dark underlined">
 										{" "}
-										clicando aqui
+										Clique aqui
 									</a>
 								</p>
 								{p.website && (
 									<p>
 										Website:{" "}
-										<a href={p.website} target="tab" className="dark">
+										<a
+											href={p.website}
+											target="tab"
+											className="dark underlined"
+										>
 											Clique aqui
 										</a>
 									</p>

@@ -9,7 +9,7 @@ function About() {
 				<Grid item xs={12}>
 					<div className="content">
 						<p>
-							Olá meu nome é Luis Eduardo Ramos, sou técnico de informática
+							Olá, meu nome é Luis Eduardo Ramos, sou técnico de informática
 							certificado pelo Centro Paula Souza, estudante de Tecnologia em
 							Análise e Desenvolvimento de Sistemas e autodidata nas horas
 							vagas. Programação para mim não é só trabalho, é também, um hobby.{" "}
