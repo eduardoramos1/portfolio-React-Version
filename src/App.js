@@ -4,7 +4,6 @@ import { Container } from "@material-ui/core/";
 import Navbar from "./components/NavBar";
 import About from "./components/About";
 import Projects from "./components/Projects";
-import Skills from "./components/Skills";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import projects from "./projects";
@@ -21,9 +20,6 @@ function App() {
 						<Route exact path="/" component={About} />
 						<Route exact path="/projetos">
 							<Projects portfolioProjects={portfolioProjects} />
-						</Route>
-						<Route exact path="/skills">
-							<Skills></Skills>
 						</Route>
 					</Switch>
 				</Container>

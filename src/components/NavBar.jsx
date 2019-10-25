@@ -15,9 +15,6 @@ export default function NavBar() {
 							<Link to="/">Sobre</Link>
 						</li>
 						<li>
-							<Link to="/skills">Skills</Link>
-						</li>
-						<li>
 							<Link to="/projetos">Projetos</Link>
 						</li>
 					</ul>
