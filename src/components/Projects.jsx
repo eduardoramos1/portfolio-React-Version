@@ -14,9 +14,8 @@ export default function Projects(props) {
 							<div className="dark ">
 								<p className="mb-2">Tecnologias utilizadas: {p.tecnologies}</p>
 								<p className="mb-2">
-									Repositório no Github :
+									Repositório no Github:{" "}
 									<a href={p.github} target="tab" className="dark underlined">
-										{" "}
 										Clique aqui
 									</a>
 								</p>

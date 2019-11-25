@@ -14,8 +14,8 @@ const projects = [
 	{
 		project: "Contact Keeper",
 		website: "https://agenda-app-react.herokuapp.com/login",
-		github: "https://github.com/eduardoramos1/quizz",
-		tecnologies: "Vue.js, HTML5, CSS3 "
+		github: "https://github.com/eduardoramos1/portfolio-React-Version",
+		tecnologies: "MongoDB, Express, React, Node.js "
 	},
 	{
 		project: "Lista de Tarefas",
