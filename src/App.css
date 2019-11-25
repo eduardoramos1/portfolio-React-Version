@@ -3,6 +3,7 @@
 	--deep-dark: rgb(59, 59, 59);
 	--white: rgb(252, 252, 252);
 	--red: rgb(216, 69, 69);
+	--red-secondary: rgb(216, 55, 55);
 	--light: rgb(221, 221, 221);
 	--light-steel-blue: #b0c4de;
 	--white-smoke: rgb(233, 233, 233);
@@ -167,7 +168,21 @@ nav li {
 	border: #ccc 1px dotted;
 	margin: 0.7rem 0;
 	box-shadow: rgb(224, 223, 223) 1px 1px 5px;
+	position: relative;
+	z-index: -2;
 }
+
+/* .card::after {
+	position: absolute;
+	content: "";
+	z-index: -1;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-bottom: 15px solid var(--red-secondary);
+	border-left: 15px solid transparent;
+} */
 
 .dark {
 	color: var(--dark);

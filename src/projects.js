@@ -12,16 +12,16 @@ const projects = [
 		tecnologies: "Node.js, Bootstrap, Express, Handlebars, MongoDB"
 	},
 	{
-		project: "Quizz",
-		website: null,
+		project: "Contact Keeper",
+		website: "https://agenda-app-react.herokuapp.com/login",
 		github: "https://github.com/eduardoramos1/quizz",
 		tecnologies: "Vue.js, HTML5, CSS3 "
 	},
 	{
 		project: "Lista de Tarefas",
 		website: "https://projeto-lista-de-tarefa.herokuapp.com/",
-		github: "https://github.com/eduardoramos1/projeto-lista-de-tarefas",
-		tecnologies: "Vue.js, HTML5, CSS3 "
+		github: "https://github.com/eduardoramos1/contact-keeper",
+		tecnologies: "MongoDB, Express, React, Node.js"
 	},
 	{
 		project: "Paralax Layout",
